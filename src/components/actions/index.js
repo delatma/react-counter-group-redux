@@ -21,3 +21,9 @@ export const multiplyByTwo =()=>{
         type: 'MULTIPLY'
     }
 }
+
+export const reset =()=>{
+    return{
+        type: 'RESET'
+    }
+}
