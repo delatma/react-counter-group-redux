@@ -9,3 +9,15 @@ export const decrement =()=> {
         type: 'DECREMENT'
     }
 };
+
+export const divideByTwo =()=>{
+    return{
+        type: 'DIVIDE'
+    }
+};
+
+export const multiplyByTwo =()=>{
+    return{
+        type: 'MULTIPLY'
+    }
+}
