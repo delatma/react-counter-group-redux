@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
 import CounterGroup from "./components/CounterGroup/CounterGroup"
+import CounterWithReduxState from "./components/Counter/CounterWithReduxState";
 
 function App() {
   return (
   	<div className="Counter">
-      <CounterGroup defaultCounts={3}/>
+        <CounterWithReduxState/>
+      {/*<CounterGroup defaultCounts={3}/>*/}
       </div>
   );
 }
